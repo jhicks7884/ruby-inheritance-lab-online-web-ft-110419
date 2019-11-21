@@ -5,5 +5,5 @@ class Teacher
   def teach
     KNOWLEDGE[RAND(KNOWLEDGE.length)]
   end
-  
+
 end
