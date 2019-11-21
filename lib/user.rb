@@ -1,9 +1,8 @@
 class User
+  attr_accessor :first_name, :last_name
 
-attr_accessor :first_name, :last_name
-
-def initialize
-  @@all << self
+  def initialize
+    @@all << self
+ end
 end
-
 end
